@@ -114,6 +114,9 @@ header {
     background-color:#fff;
     overflow: hidden;
 }
+#project .card:hover{
+  filter: brightness(93%);
+}
 
 
 .cardtext {
