@@ -136,6 +136,19 @@ a.viewcode {
     z-index: 100;
 }
 
+img.blogpost-mockup {
+  width: 100%;
+}
+.blogpost > div {
+
+  text-align: center;
+}
+.blogpost-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /* skill */
 
@@ -337,6 +350,10 @@ font-weight: 200;
 }
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {  
+#heading-text{
+ padding-top: 110px;
+ font-size: 30px;
+}
 .project-container{
     padding: 10px 10%;
 }
